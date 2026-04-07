@@ -1,0 +1,30 @@
+
+ ✅ Partial Sum (Prefix Sum) Concept:
+
+is one of the most powerful techniques to efficiently solve problems involving range updates or range queries.
+
+
+//  Stay strong & keep solving! 💪👨‍💻
+
+
+ ✅ If your problem includes:
+
+
+Range sum
+
+Range add/update
+
+Nested range operations       
+
+Counting frequencies in subarrays
+
+✅ Then Prefix Sum / Difference Array is likely the right tool.
+
+
+
+🚀 Tip for You
+Always think:
+
+“Can I avoid looping over the full range by using a smart precomputation?”
+
+If yes → prefix sums or difference arrays are probably your best friends! 🤝
