@@ -1,0 +1,18 @@
+
+
+( "Using Min-Heap with priority_queue in C++ (Smallest Element First) ) :
+
+
+
+If you want to use a priority_queue in C++ where you always get or remove
+
+ the element with the smallest priority first, then this is the correct 
+
+
+syntax:
+
+priority_queue<int, vector<int>, greater<int>> pq;
+
+
+So pq.top() always gives you the smallest element, and pq.pop() removes it.
+
