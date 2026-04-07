@@ -2,7 +2,7 @@
 
    ( Alternating Sign Sum Algorithm for 1 to n )
 
-   You're given an integer n, and you want to compute the result of this pattern:
+   /// You're given an integer n, and you want to compute the result of this pattern:
 
      −1+2−3+4−5+⋯±n
 
