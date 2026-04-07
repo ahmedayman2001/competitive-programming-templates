@@ -18,13 +18,4 @@ Nested range operations
 
 Counting frequencies in subarrays
 
-✅ Then Prefix Sum / Difference Array is likely the right tool.
 
-
-
-🚀 Tip for You
-Always think:
-
-“Can I avoid looping over the full range by using a smart precomputation?”
-
-If yes → prefix sums or difference arrays are probably your best friends! 🤝
