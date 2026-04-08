@@ -1,4 +1,4 @@
-# Competitive Programming Templates 🚀
+# Competitive Programming Templates 
 
 A collection of essential templates and algorithms for competitive programming in C++.
 
