@@ -1,0 +1,66 @@
+
+   note :
+
+lo = 10, hi = 20
+hi - lo = 10
+(hi - lo) / 2 = 5
+mid = 10 + 5 = 15
+✅ Middle point found without risking overflow.
+
+In short:
+We use (hi - lo) instead of (lo + hi)
+to avoid overflow and to directly calculate the middle of the range in a safe way.
+
+EX :
+
+ ll lo = 0 , hi = 1e9+2 , mid , ans ;
+
+        while ( lo <= hi ){
+
+            mid = lo + (hi - lo ) /2 ;
+
+
+*********************************************************************************************************************************************
+
+In Binary Search (BS) problems, choosing whether to start with l = 0 or l = 1 depends entirely on:
+
+✅ 1. What are you searching on?
+✅ 2. What is the domain or range of the search?
+
+
+
+
+✅ Case 1: Searching in an array (index-based search)
+
+You want to find a value or index in a sorted array.
+
+You always start with:
+
+l = 0, r = n - 1
+
+
+
+
+
+
+✅ Case 2: Searching for a number, answer in [1, N]
+
+Usually used in "binary search on the answer" problems.
+
+You are not searching array values but finding the minimum or maximum answer.
+
+You usually start with:
+
+l = 1, r = N
+
+
+
+
+
+
+✅ Case 3: When the answer can be 0 → l = 0
+
+If the answer range can include 0, like finding the minimum value satisfying a condition, you start with:
+
+int l = 0, r = 1e9;
+

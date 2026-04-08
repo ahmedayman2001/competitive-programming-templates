@@ -1,0 +1,69 @@
+
+
+#include <bits/stdc++.h>
+   
+using namespace std;
+
+#define FastIO ios::sync_with_stdio(false) , cin.tie(nullptr);
+
+#define ll long long
+
+   // أن تكون حيا فقط لاتكفى ! يجب أن تمتلك ضوءشمس ، حرية , أو زهرة صغيرة داخل قلبك  )) ;
+
+   // **  Stay strong & keep solving! 💪👨‍💻  ** //
+
+bool check(int flr){
+    cout<<"Current Floor is "<<flr<<"\n";
+
+    int ans;    // 0->>egg break   ,  1->>egg not break ; //
+    cin>>ans;
+
+    return ans;
+}
+
+void go() {
+    int n;
+    cin >> n;  // Total number of floors
+    int l = 1, r = n, mid, ans = -1;
+
+    while (l <= r) {
+        mid = (l + r) / 2;
+
+        if (check(mid)) {  //   The egg will not break at this Floor ;  //
+
+            ans = mid;
+            l = mid + 1;
+
+
+        } else {           //   The egg will break at this Floor ;  //
+
+
+            r = mid - 1;
+
+        }
+    }
+
+    cout << ans << "\n";
+}
+
+
+int main() {
+
+    FastIO
+
+
+    int tc=1;
+    while (tc--){
+
+
+        go();
+
+    }
+
+
+    return 0;
+
+}
+
+// vector<vector<int>> a(5, vector<int>(5));
+//vector<vector<int>>vc(5,vector<int>(5));
