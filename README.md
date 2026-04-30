@@ -2,7 +2,7 @@
 
 A collection of essential templates and algorithms for competitive programming in C++.
 
-## 📌 Description
+## 🔹 Description
 
 This repository contains commonly used algorithms, techniques, and problem-solving patterns that frequently appear in competitive programming contests.  
 It is designed to help in fast implementation during contests and to strengthen algorithmic thinking.
@@ -57,7 +57,7 @@ It is designed to help in fast implementation during contests and to strengthen 
 
 ---
 
-## 🎯 Purpose
+## 🔹 Purpose
 - Speed up coding during contests  
 - Provide ready-to-use templates  
 - Improve problem-solving skills  
@@ -65,10 +65,10 @@ It is designed to help in fast implementation during contests and to strengthen 
 
 ---
 
-## 💻 Language
+## 🔹 Language
 C++
 
 ---
 
-## ⭐ 
+##  🔹
 All templates are optimized for clarity and fast usage during contests.
